@@ -1,13 +1,18 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "time.h"
-
+#include <stdio.h>
+#include <time.h>
+#include "corsair.h"
 
 
 int main() {
     time_t now;
     struct tm* now_tm;
     struct timespec sleep_time;
+
+    printf("Number of corsair: %d\n", get_nb_corsair());
+    /* Find PSU list */
+    /* Get PSU SN or ID */
+    /* Get PSU Total Power */
+
 
     while(1)
     {
